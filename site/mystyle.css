@@ -1,8 +1,9 @@
 .contents {background-color: red;}
 
-.bigpickle {
-  border: 2px groove green;
+.titlepickle {
+  text-align: center;
+  border: 2px dotted green;
   border-radius: 12px;
-  padding: 5px;
+  padding: 70px;
   background-color: olive;
 }
