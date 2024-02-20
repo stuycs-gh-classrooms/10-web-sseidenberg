@@ -4,12 +4,12 @@ body {
 }
 
 .titlepickle {
-  font-size: 60px;
+  font-size: 80px;
   font-family: "Arial Black";
   text-align: center;
   width: 40%;
-  border: 10px dotted #800000;
-  border-radius: 80px;
+  border: 12px dotted #800000;
+  border-radius: 100px;
   padding: 50px;
   background-color: #D0312D;
   margin:auto;
@@ -62,3 +62,17 @@ body {
 }
 
 */
+.landtext {
+  background-color: #D0312D;
+}
+
+.lefty {
+  height: 400px;
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+}
+.landing {
+  font-size: 40px;
+  font-family: "Arial";
+}
