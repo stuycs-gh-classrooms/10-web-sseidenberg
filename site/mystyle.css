@@ -1,13 +1,14 @@
 
 body {
   background-color: #710C04;
+  height: 100%;
 }
 
 .titlepickle {
   font-size: 80px;
   font-family: "Arial Black";
   text-align: center;
-  width: 40%;
+  width: 1000px;
   border: 12px dotted #800000;
   border-radius: 100px;
   padding: 50px;
@@ -64,15 +65,24 @@ body {
 */
 .landtext {
   background-color: #D0312D;
+  height: 50%;
+  max-height: 1000%;
+  padding: 20px;
+  margin: auto;
 }
 
 .lefty {
-  height: 400px;
-  width: 300px;
+  object-fit: scale-down;
   float: left;
   margin-right: 20px;
 }
 .landing {
-  font-size: 40px;
+  text-align: justify;
+  margin: auto;
+  text-align: left;
+  font-size: 50px;
+  height: 95%;
+  max-height: 1000px;
+  width: 90%;
   font-family: "Arial";
 }
