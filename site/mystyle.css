@@ -4,48 +4,60 @@ body {
 }
 
 .titlepickle {
-  font-size: 40px;
+  font-size: 60px;
   font-family: "Arial Black";
   text-align: center;
-  width: 30%;
-  border: 10px dotted #445626;
-  border-radius: 60px;
-  padding: 40px;
-  background-color: olive;
+  width: 40%;
+  border: 10px dotted #800000;
+  border-radius: 80px;
+  padding: 50px;
+  background-color: #D0312D;
   margin:auto;
+  margin-top: 20px;
 }
 
 .contents {
+  text-align: center;
+  font-family: "Arial Black";
   color: black;
-  display: flex;
 }
-
-.contents > div {
-  background-color: #D0312D;
-  flex: 1;
+.horiz{
+  display: inline-block;
+  font-size: 20px;
+  background-color: olive;
+  border-radius: 40px;
   text-align: center;
   padding: 10px;
-  border: 4px solid #B22222;
+  margin-right: 10px;
+  margin-top: 25px;
+  border: 8px dotted #445626;
+}
+
+.onpage {
+  border: 8px solid #D0312D;
 }
 
 /*
+
 .contents {
   color: black;
-  margin: auto;
-  width: 80%;
-  font-size: 25px;
-}
-.horizontal {
-  background-color: olive;
-  border: 3px solid;
-  border-radius: 60px;
   display: flex;
-  padding: 20px;
-  margin: 30x;
+}
+.contents > div {
+  font-family: "Arial Black";
+  font-size: 20px;
+  background-color: olive;
+  flex: 1;
+  border-radius: 40px;
+  text-align: center;
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 25px;
+  border: 8px dotted #445626;
 }
 
-.onpage{
-
+.onpage {
+  border-color: #800000;
 }
 
 */
