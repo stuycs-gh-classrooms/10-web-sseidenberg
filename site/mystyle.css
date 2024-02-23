@@ -73,7 +73,9 @@ body {
 
 .lefty {
   object-fit: scale-down;
+  align-content: start;
   float: left;
+  height: auto;
   margin-right: 20px;
 }
 .landing {
