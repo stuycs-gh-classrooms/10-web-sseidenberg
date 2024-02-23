@@ -64,26 +64,21 @@ body {
 */
 .landtext {
   background-color: #D0312D;
-  height: 50%;
-  max-height: 1000%;
+  overflow: hidden;
+  display: flex;
   padding: 20px;
   margin: auto;
 }
 
 .lefty {
-  object-fit: scale-down;
-  align-content: start;
-  float: left;
+  flex: 0 0 auto;
   height: auto;
-  margin-right: 20px;
+  max-width: 40%;
 }
 .landing {
+  flex: 1;
   text-align: justify;
-  margin: auto;
-  text-align: left;
+  margin: 0;
   font-size: 50px;
-  height: 95%;
-  max-height: 1000px;
-  width: 90%;
   font-family: "Arial";
 }
