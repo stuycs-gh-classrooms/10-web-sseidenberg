@@ -38,7 +38,7 @@ body {
 }
 
 .landtext {
-  border: 4px solid black;
+  border: 6px dotted #800000;
   background-color: #D0312D;
   border-radius: 30px;
   overflow: hidden;
@@ -61,7 +61,7 @@ body {
   font-family: "Arial";
 }
 
-.spec {
+.link {
   font-size: 20px;
   font-family: "Arial Black";
   text-align: center;
@@ -72,5 +72,70 @@ body {
   margin-bottom: 10px;
   margin-left: 5px;
   margin-right: 5px;
-  border: 5px dotted #445626;
+  border: 6px dotted #445626;
+}
+
+
+.box1 {
+  font-size: 20px;
+  font-family: "Arial Black";
+  text-align: center;
+  background-color: olive;
+  border-radius: 40px;
+  padding: 7px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 6px dotted #445626;
+}
+
+.box2 {
+  font-size: 20px;
+  font-family: "Arial Black";
+  text-align: center;
+  background-color: olive;
+  border-radius: 40px;
+  padding: 7px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 6px dotted #445626;
+}
+
+.redhead {
+  font-size: 25px;
+  max-width: 20%;
+  font-family: "Arial Black";
+  text-align: center;
+  background-color: #ab0000;
+  border-radius: 40px;
+  padding: 7px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.boxes {
+  border-radius: 40px;
+  display: flex;
+  border: 6px dotted #800000;
+  background-color: #D0312D;
+  font-family: "Arial Black";
+  padding: 2px;
+  text-align: center;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.boxes > div {
+  flex: 1;
+  font-size: 25px;
+}
+
+.center {
+  padding-top: 100px;
 }
