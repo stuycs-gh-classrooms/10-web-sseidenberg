@@ -79,37 +79,8 @@ body {
 .box1 {
   font-size: 20px;
   font-family: "Arial Black";
-  text-align: center;
-  background-color: olive;
-  border-radius: 40px;
-  padding: 7px;
-  margin-top:10px;
-  margin-bottom: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
   border: 6px dotted #445626;
-}
-
-.box2 {
-  font-size: 20px;
-  font-family: "Arial Black";
-  text-align: center;
   background-color: olive;
-  border-radius: 40px;
-  padding: 7px;
-  margin-top:10px;
-  margin-bottom: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-  border: 6px dotted #445626;
-}
-
-.redhead {
-  font-size: 25px;
-  max-width: 20%;
-  font-family: "Arial Black";
-  text-align: center;
-  background-color: #ab0000;
   border-radius: 40px;
   padding: 7px;
   margin-top:10px;
@@ -118,6 +89,43 @@ body {
   margin-right: 5px;
   display: flex;
   align-items: center;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+.box2 {
+  font-size: 20px;
+  font-family: "Arial Black";
+  border: 6px dotted #445626;
+  background-color: olive;
+  border-radius: 40px;
+  padding: 7px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.boxneed {
+  font-size: 25px;
+  max-width: 20%;
+  font-family: "Arial Black";
+  border-radius: 40px;
+  padding: 7px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #ab0000;
 }
 
 .boxes {
@@ -140,8 +148,3 @@ body {
   display: flex;
   align-items: center;
 }
-/*
-.center {
-  align-items: center;
-}
-*/
