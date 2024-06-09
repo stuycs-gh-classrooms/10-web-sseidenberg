@@ -20,32 +20,13 @@ HTML_FOOTER = """
 </html>
 """
 
-
-
 data = cgi.FieldStorage()
 selected_option = data.getvalue("selected_option", "")
-print("Content-type:text/html\r\n\r\n")
-print("<html>")
-print("<head>")
-print("<title>Selected Option</title>")
-print("</head>")
-print("<body>")
-print("<h2>Selected Option:</h2>")
-print("<p>{}</p>".format(selected_option))
-print("</body>")
-print("</html>")
-
-# if __name__ == "__main__":
-#     main()
-# 
-# data = cgi.FieldStorage()
-# name = 'batman'
-# if ('name' in data):
-#     name = data['name'].value
-# bgcolor = 'DarkSeaGreen'
-# if ('bgcolor' in data):
-#     bgcolor = data['bgcolor'].value
-# 
+data = cgi.FieldStorage()
+name = 'Alabama'
+if ('name' in data):
+    name = data['name'].value
+ 
 # html= HTML_HEADER
 # html+= '<body style="background-color: '
 # html+= bgcolor + ';">'
