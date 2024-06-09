@@ -7,12 +7,32 @@
     </title>
   </head>
 
+  <body style="background-color:white;">
+
+  <h2>Hoverable Dropdown</h2>
+  <p>Move the mouse over the button to open the dropdown menu.</p>
+
+  <div class="dropdown">
+    <form action="kitchen.py" method="GET">
+      <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+        <input type="radio" name="Alabama">
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </form>
+  </div>
+
+  </body>
+  </html>
   <body>
     <form action="kitchen.py" method="GET">
       Which state would you like to view data for? <input type="text" name="name" value="Alabama">
+<!--
       <br>
       <p>
         What data would you like to see?
+      </p>
       <div>
         <input type="radio" name="appliance" value="Fridge">Refrigerator
       </div>
@@ -24,7 +44,7 @@
       </div>
       <input type="submit" name="submit">
     </form>
-
+-->
   </body>
 
 </html>
