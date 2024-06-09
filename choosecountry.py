@@ -21,8 +21,6 @@ HTML_FOOTER = """
 """
 
 data = cgi.FieldStorage()
-selected_option = data.getvalue("selected_option", "")
-data = cgi.FieldStorage()
 name = 'Alabama'
 if ('name' in data):
     name = data['name'].value
